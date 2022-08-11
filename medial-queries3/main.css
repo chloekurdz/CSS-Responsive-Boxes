@@ -1,3 +1,14 @@
 body {
   background: peachpuff;
+  margin: 0;
+  text-align: center;
+}
+* {
+  border: 1px solid teal;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
